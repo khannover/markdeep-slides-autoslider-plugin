@@ -47,7 +47,11 @@ You can configure some options:
           seconds:10,
           repeat: true,
           growingProgressbar: true,
-          growingProgressbarColor: "rgba(255,0,0,0.5)"
+          growingProgressbarColor: "rgba(255,0,0,0.5)",
+          firstDelay: 2
         }
       }
 ```
+
+> [!CAUTION]
+> The first slide acts as a cover and will only be shown once and it will have no progress bar. It will be skipped in the loop. You can include an empty first slide and set the option *firstDelay* to *0* to skip the cover.
