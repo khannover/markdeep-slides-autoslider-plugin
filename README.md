@@ -2,6 +2,10 @@
 A plugin for markdeep-slides which auto-changes slides after a configurable amount of seconds. Optionally adds animated progress-bars.
 
 
+###
+
+Demo: https://khannover.github.io/index.md.html
+
 ## Installation
 
 Just include the <script>-tag at the end of the HTML-body.
