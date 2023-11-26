@@ -31,7 +31,8 @@ Then you will have to activate it by adding a plugins field to the markdeep-slid
         slideChangeHook: (oldSlide, newSlide) => {},
         modeChangeHook: (newMode) => {}
 
-        /* At minimum add this */
+        /* At minimum add this to activate
+           the plugin with default values */
         ,plugins: {    
             autoslider
         }
